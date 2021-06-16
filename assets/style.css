@@ -7,15 +7,20 @@
 }
 main{
     background-color: rgb(133, 202, 241);
+
 }
-.header{
+header{
     padding: 20px;
     background-color: rgb(94, 240, 155);
+    position: fixed;
+    top: 0;
+    text-align: right;
+
 }
 #main {
     text-align: center;
 }
-.nav{
+nav{
     display: inline;
 }
 
@@ -24,9 +29,10 @@ main{
     width: 500px;
     background-color: cyan;
     color: darkblue;
-    border: 20px solid black;
     position: relative;
+    border: 20px solid black;
     margin: auto;
+    padding: 20px;
 }
 .boxtext{
     text-align: center;
@@ -37,9 +43,16 @@ main{
 width: 5%;
 height: 5%;
 }
-.footer{
-padding: 20px;
+footer{
 background-color: pink;
 text-align: center;
 font-weight: bolder;
+position: absolute;
+bottom: 0;
+width: 100vw;
+}
+
+.form{
+    text-align: center;
+    background-color: coral;
 }
